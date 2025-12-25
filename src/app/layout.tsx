@@ -109,19 +109,12 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "SoftwareApplication",
                 "name": "GitHub",
-                "applicationCategory": "DeveloperApplication",
-                "operatingSystem": "All",
                 "offers": {
                   "@type": "Offer",
                   "price": "0",
                   "priceCurrency": "USD"
                 },
-                "description": "GitHub is where over 100 million developers shape the future of software, together. Join them to contribute to the open source community and manage your Git repositories.",
-                "aggregateRating": {
-                  "@type": "AggregateRating",
-                  "ratingValue": "4.8",
-                  "ratingCount": "88530"
-                }
+                "description": "GitHub is where over 100 million developers shape the future of software, together. Join them to contribute to the open source community and manage your Git repositories."
               },
               {
                 "@context": "https://schema.org",
