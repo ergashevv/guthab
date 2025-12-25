@@ -28,6 +28,59 @@ export default function BuyPage() {
                 <p className="email-text">ergashevdev@gmail.com</p>
             </div>
 
+            {/* Value Proposition Section for SEO & Conversion */}
+            <div className="seo-accordion-container" style={{ marginTop: '3rem', maxWidth: '600px', width: '100%' }}>
+                <div className="seo-details" style={{ marginBottom: '1rem' }}>
+                    <div style={{ padding: '1rem', color: '#8b949e', borderBottom: '1px solid #30363d', background: '#161b22', fontWeight: 'bold' }}>
+                        Why buy guthab.com?
+                    </div>
+                    <div style={{ padding: '1.5rem', background: '#0d1117', color: '#c9d1d9', lineHeight: '1.6' }}>
+                        <ul style={{ paddingLeft: '1.2rem', margin: 0 }}>
+                            <li style={{ marginBottom: '0.5rem' }}><strong>Brand Authority:</strong> Short, memorable, and sounds like a tech giant.</li>
+                            <li style={{ marginBottom: '0.5rem' }}><strong>Dev Traffic:</strong> Naturally attracts developers and tech-savvy users.</li>
+                            <li style={{ marginBottom: '0.5rem' }}><strong>Versatile:</strong> Perfect for code hosting, dev tools, or a tech blog.</li>
+                            <li><strong>SEO Ready:</strong> Pre-optimized for high-traffic tech keywords.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "How can I buy the domain guthab.com?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "You can purchase guthab.com by contacting the owner directly via Telegram (@edevz) or Email (ergashevdev@gmail.com) to negotiate the price and transfer details."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "What is the price of guthab.com?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "The price is negotiable. We are open to reasonable offers from serious buyers looking for a premium tech domain."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Is the transfer secure?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Yes. We can use a secure escrow service (like Escrow.com or Dan.com) to ensure a safe transaction for both parties."
+                                }
+                            }
+                        ]
+                    })
+                }}
+            />
+
         </div>
     );
 }

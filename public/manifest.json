@@ -1,0 +1,16 @@
+{
+    "name": "Guthab Domain Sale",
+    "short_name": "Guthab",
+    "description": "Premium domain name guthab.com for sale.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0d1117",
+    "theme_color": "#0d1117",
+    "icons": [
+        {
+            "src": "/icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}

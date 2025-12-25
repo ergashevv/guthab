@@ -1,0 +1,13 @@
+/* TEAM */
+Designer: Guthab AI
+Developer: Guthab AI
+Contact: ergashevdev@gmail.com
+Telegram: @edevz
+Site: guthab.com
+
+/* SITE */
+Last update: 2025/01/01
+Language: English
+Standards: HTML5, CSS3, JSON-LD
+Components: Next.js, React
+Software: VS Code

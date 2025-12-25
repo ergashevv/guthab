@@ -8,7 +8,7 @@ export default function Home() {
 
       <footer className="footer">
         <div className="footer-links">
-          <span>&copy; 2025 Guthab, Inc.</span>
+          <span>&copy; 2025 Guthab Markets.</span>
           <a href="/buy" style={{ fontWeight: 'bold', color: '#58a6ff' }}>Buy this domain</a>
         </div>
       </footer>

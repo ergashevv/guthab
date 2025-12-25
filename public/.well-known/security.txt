@@ -1,0 +1,4 @@
+Contact: mailto:ergashevdev@gmail.com
+Encryption: https://guthab.com/pgp-key.txt
+Languages: en, ru, uz
+Canonical: https://guthab.com/.well-known/security.txt
