@@ -29,21 +29,7 @@ export default function BuyPage() {
             </div>
 
             {/* Value Proposition Section for SEO & Conversion */}
-            <div className="seo-accordion-container" style={{ marginTop: '3rem', maxWidth: '600px', width: '100%' }}>
-                <div className="seo-details" style={{ marginBottom: '1rem' }}>
-                    <div style={{ padding: '1rem', color: '#8b949e', borderBottom: '1px solid #30363d', background: '#161b22', fontWeight: 'bold' }}>
-                        Why buy guthab.com?
-                    </div>
-                    <div style={{ padding: '1.5rem', background: '#0d1117', color: '#c9d1d9', lineHeight: '1.6' }}>
-                        <ul style={{ paddingLeft: '1.2rem', margin: 0 }}>
-                            <li style={{ marginBottom: '0.5rem' }}><strong>Brand Authority:</strong> Short, memorable, and sounds like a tech giant.</li>
-                            <li style={{ marginBottom: '0.5rem' }}><strong>Dev Traffic:</strong> Naturally attracts developers and tech-savvy users.</li>
-                            <li style={{ marginBottom: '0.5rem' }}><strong>Versatile:</strong> Perfect for code hosting, dev tools, or a tech blog.</li>
-                            <li><strong>SEO Ready:</strong> Pre-optimized for high-traffic tech keywords.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+
 
             <script
                 type="application/ld+json"
